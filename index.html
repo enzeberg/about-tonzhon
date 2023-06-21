@@ -12,16 +12,32 @@
     })(window, document, "clarity", "script", "hjojddmaxc");
   </script>
 </head>
-<body>
-  <div id="root" style="margin: 20px"></div>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script>
-    fetch('README.md')
-      .then(response => response.text())
-      .then(markdown => {
-        const html = marked.parse(markdown);
-        document.getElementById('root').innerHTML = html;
-      });
-  </script>
+<body style="margin: 10px 20px 30px 20px">
+  <p>
+    <a href="https://tonzhon.com">
+      <img src="images/tonzhon_860_140_r25.webp" alt="铜钟 / Tonzhon">
+    </a>
+    <img src="images/qrcode.png" alt="QR code">
+  </p>
+  <h1><a href="https://tonzhon.com">https://tonzhon.com</a></h1>
+  <h2>关于铜钟</h2>
+  <p>铜钟是一个主打「听歌」功能的 web app, 致力于为人们带来卓越的听歌体验。铜钟有着丰富的音乐资源，简洁清爽的 UI 和方便的交互。在铜钟上，你不仅可以方便地找到并聆听你喜欢的歌曲，还可以将它们保存下来。</p>
+  <p>铜钟上的一切内容都是与音乐直接相关的，没有直播, 社交和广告，不会干扰你的听歌心情。在铜钟上，你可以沉浸到属于你自己一个人的那片天地，忘却世间的纷纷扰扰...</p>
+  <h2>为何起名为 "铜钟"?</h2>
+  <p>因为铜钟是我们中国古代的一种乐器，它与音乐有着很强的相关性。人们看到 "铜钟" 二字会联想到音乐。</p>
+  <h2>为何铜钟上面没有广告?</h2>
+  <p>因为广告会影响用户体验。铜钟是一个极其重视用户体验的网站，铜钟不希望用户受到广告的干扰。</p>
+  <h2>为何铜钟没有 评论/回复 等社交功能?</h2>
+  <p>因为社交会干扰人们的听歌心情，例如，对于周杰伦的《最伟大的作品》，有些人觉得很好听，有些人却觉得不好听，觉得好听的人在看到有人说它不好时是会难过的。铜钟认为每一个人都是一个高度独立的个体，铜钟不希望人们听歌时受到他人的干扰。</p>
+  <p>所以，铜钟不想引导用户进行社交，更不会加入「直播」这样的社交功能。</p>
+  <h2>为何铜钟的英文名字是 "Tonzhon"?</h2>
+  <p>起初铜钟的英文名字是 "Tongzhong", 后来觉得太长，遂改成了 "Tonzhon". 在众多中文输入法中，输入 "tonzhon" 是可以打出 "铜钟" 的。
+  </p>
+  <h2>隐藏操作</h2>
+  <ul>
+    <li>双击歌曲可播放</li>
+  </ul>
+  <h2>铜钟的创造者</h2>
+  <p><a href="https://github.com/enzeberg">李恩泽 (Li Enze)</a></p>
 </body>
 </html>
