@@ -2,3 +2,10 @@ main {
   margin: 20px auto;
   max-width: 1024px;
 }
+
+.part {
+  border: 1px solid #d0d7de;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
